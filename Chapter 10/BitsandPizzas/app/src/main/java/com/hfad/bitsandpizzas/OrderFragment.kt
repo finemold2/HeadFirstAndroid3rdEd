@@ -21,6 +21,7 @@ class OrderFragment : Fragment() {
         val view = binding.root
         (activity as AppCompatActivity).setSupportActionBar(binding.toolbar)
 
+        
         binding.fab.setOnClickListener {
             val pizzaType = binding.pizzaGroup.checkedRadioButtonId
             if (pizzaType == -1) {
